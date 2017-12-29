@@ -6,3 +6,5 @@ This project generates a DLL and EXE file. The DLL contains all the code necessa
 
 ## RottenPotatoEXE
 This project is identical to the above, except the code is all wrapped into a single project/binary. This may be more useful for some penetration testing scenarios.
+
+Modify the "main" method in MSFRottenPotato.cpp to change what command will be run. By default it just runs cmd.exe to pop a command shell.
